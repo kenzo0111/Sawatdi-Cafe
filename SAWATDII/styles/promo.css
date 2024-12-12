@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'MyCustomFont', AppleGaramond;
+  background-image: url('../photo/suggestedbg.png'); 
+}
+
+h1 {
+  font-family: 'MyCustomFont', AppleGaramond;
+  text-align: center;
+  font-size: 50px;
+  color: #043d30;
+  margin-top: 20px;
+  margin-bottom: none;
+}
+
+.promo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.promo-card {
+  width: 300px;
+  height: 350px;
+  border: 3px solid #b19060;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.promo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.promo-card img:hover {
+  transform: scale(1.1);
+}
+
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#lightbox.active {
+  display: flex;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border: 5px solid #b19060;
+  border-radius: 10px;
+}

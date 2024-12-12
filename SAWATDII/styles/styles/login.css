@@ -1,0 +1,185 @@
+body {
+  font-family: 'MyCustomFont', AppleGaramond;
+  line-height: 1.6;
+  background-image: url('../photo/suggestedbg.png');
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto; /* Add margin for spacing around the login box */
+  padding: 20px;
+}
+
+/* Card Styling */
+.login-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Styling */
+.login-header {
+  margin-bottom: 20px;
+}
+
+.login-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.login-header h2 {
+  color: #043d30;
+  font-size: 1.5rem;
+}
+
+/* Form Styling */
+.login-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #043d30;
+  box-shadow: 0 0 5px rgba(4, 61, 48, 0.2);
+}
+
+/* Button Styling */
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #043d30;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #f4c842;
+  color: black;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.login-footer a {
+  color: #043d30;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Social Login */
+.social-login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-login p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #043d30;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #f4c842;
+}
+
+.social-btn i {
+  font-size: 1.2rem;
+}
+
+/* Toast Notification Styles */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+  z-index: 9999;
+}
+
+.toast.show {
+  opacity: 1;
+  bottom: 30px;
+}
+
+/* Success Toast */
+.toast.success {
+  background-color: #4CAF50; /* Green for success */
+}
+
+/* Error Toast */
+.toast.error {
+  background-color: #f44336; /* Red for error */
+}
+
+/* Info Toast */
+.toast.info {
+  background-color: #2196F3; /* Blue for information */
+}
+
+/* Warning Toast */
+.toast.warning {
+  background-color: #ff9800; /* Orange for warning */
+}
+
+/* Optional: Customize fonts and shadows */
+.toast {
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,94 @@
+/* Main container for the cart */
+.container {
+  width: 100%;
+  max-width: 600px; /* Make the container smaller */
+  background-image: url('..photo/suggestedbg.png');
+  border: 2px solid #3a2403;
+  padding: 15px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text inside the container */
+  margin-top: 20px; /* Adds some space from the header */
+  margin-left: auto; /* Align the container to the center horizontally */
+  margin-right: auto; /* Ensures it's centered */
+}
+
+/* Cart title */
+.container h1 {
+  font-family: 'MyCustomFont', Winter Minie;
+  margin-bottom: 15px; /* Reduced margin */
+  font-size: 22px; /* Slightly smaller font size */
+  color: #043d30;
+}
+
+/* Cart items container */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced gap between items */
+  align-items: center; /* Center the cart items */
+}
+
+/* Individual cart item box */
+.cart-item {
+  padding: 10px; /* Reduced padding */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure cart items take full width of container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Cart item text */
+.cart-item span {
+  font-size: 14px; /* Reduced font size */
+  color: #555;
+  margin-right: auto;
+}
+
+/* Remove button */
+.cart-item button {
+  padding: 6px 10px; /* Reduced padding */
+  font-size: 14px;
+  background: #c5a26e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+  background: #c5a26e;
+}
+
+/* Total Price Section */
+#total-price {
+  font-size: 16px; /* Slightly smaller font size */
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px; /* Reduced margin */
+}
+
+.review-order {
+  display: block;
+  width: 100%;
+  padding: 8px; 
+  margin-top: 15px; 
+  font-size: 14px; 
+  font-weight: bold;
+  color: black;
+  background: #c5a26e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.review-order:hover {
+  background: #553505;
+}

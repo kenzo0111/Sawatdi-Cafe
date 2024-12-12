@@ -1,0 +1,138 @@
+body {
+  font-family: 'MyCustomFont', AppleGaramond;
+  line-height: 1.6;
+  background-image: url('../photo/suggestedbg.png');
+  background-size: cover; /* Ensure the background image covers the entire body */
+  background-position: center; /* Center the background image */
+  color: #043d30; /* Default text color */
+}
+
+/* Review Order Page Container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: url('../photo/suggestedbg.png');
+  background-size: cover; /* Ensure background covers container */
+  border: 2px solid #3a2403;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #043d30; /* Ensure text color inside container is consistent */
+}
+
+/* Cart Items */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #c5a26e;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
+
+/* Total Summary */
+.total-summary p {
+  font-weight: bold; 
+  font-size: 18px; 
+}
+
+/* Title Styles */
+h1 {
+  font-family: 'MyCustomFont', Winter Minie;
+  text-align: center;
+  color: #043d30;
+}
+
+h2, h3 {
+  font-family: 'MyCustomFont', AppleGaramond;
+  text-align: center;
+}
+
+/* Input and Select Elements */
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Google Map */
+#google-map {
+  height: 400px;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #043d30;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f4c842;
+}
+
+.confirmation-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirmation-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.close-btn {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #218838;
+}
+
