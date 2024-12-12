@@ -1,1 +1,3 @@
-# Sawatdi-Cafe
+Sawatdii Cafe is a vibrant dining destination in Daet, Camarines Norte, known for its authentic Thai dishes, fresh ingredients, and warm ambiance. To enhance its presence and connect with more customers, we propose the development of a user-friendly and visually appealing website that reflects the cafe's charm and authenticity.
+
+The website will feature a vibrant design inspired by Thai culture, showcasing the menu, story, and customer reviews while offering convenient features like online ordering and table reservations. Optimized for both desktop and mobile, this project aims to expand Sawatdii Cafe's reach, providing an engaging digital platform that complements its exceptional dining experience.
